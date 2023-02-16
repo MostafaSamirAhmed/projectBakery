@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 2000px;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 88%;
+    margin: auto;
+}
+.clerfix{
+    clear: both;
+}
+.homePhoto {
+    height: 650px;
+   background-image: url(../img/drew-coffman-1872.jpg);
+   background-size:cover;
+   background-position: center;
+   /* background-attachment: fixed; */
+   /* background-repeat: no-repeat; */
+   overflow: auto;
+  } .homePhoto .textHome {
+    width: 60%;
+   text-align: center;
+   margin: 150px auto;
+   color: #fff;
+  }
+  .homePhoto .textHome h1 {
+   font-size: 76px;
+   margin: 15px 0;
+  }
+  .homePhoto .textHome p {
+   font-size: 22px;
+   line-height: 1.8;
+  }
+ 
+  .homePhoto .textHome .btn {
+   padding: 12px 25px;
+   background-color: #8e7754;
+   color: #fff;
+   border: none;
+   border: 2px solid transparent;
+   margin: 20px 5px;
+   border-radius: 5px;
+  }
+ .homePhoto .textHome .btn2 {
+   border: 2px solid #fff;
+   background-color: transparent;
+ }
+ .pOne{
+    margin-top:50px;
+    
+ }
+ .pOne .sors{
+    width: 50%;
+    float:left;
+    text-align: center;
+    padding: 20px;
+ }
+ .pOne .sors h3{
+    font-size: 30px;
+    text-align: left;
+    
+ }
+ .pOne .sors p{
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+ }
+ .pOne .sors ul{
+    font-size: 16px;
+    list-style: none;
+    text-align: left;
+    
+ }
+ .pOne .sors li{
+    line-height: 4;
+    margin-left: 30px;
+ }
+ .pTwo{
+    margin-top: 50px;
+ }
+ .pTwo .sorsTwo{
+    width: 50%;
+    float:left;
+    padding: 20px;
+ }
+ .pTwo .sorsTwo h3{
+    font-size: 22px;
+    text-align: left;
+    padding: 20px;
+ }
+ .pTwo .sorsTwo p{
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.6;
+    padding: 20px;
+ }
+ .sorsThree{
+    margin-top:50px;
+    text-align: center;
+ } 
+  .sorsThree .card {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    padding: 25px;
+  }
+ 
+  .allCard .card h3 {
+    margin: 12px 0;
+    text-align: left;
+  }
+  .allCard .card p {
+    line-height: 1.8;
+    font-size: 14px;
+    text-align: left;
+  }
+  .pMap{
+   margin-top: 50px;
+  }
+  .pMap .Map{
+   width: 50%;
+    float:left;
+    text-align: center;
+    padding: 20px;
+  }
+  .pMap .Map h3{
+    font-size: 45px;
+    font-weight: 800;
+    text-align: left;
+  }
+  .pMap .Map p{
+   font-size: 16px;
+   text-align: left;
+   line-height: 1.5em;
+   padding: 20px;
+ }
+ .pMap .Map ul{
+   font-size: 16px;
+   list-style: none;
+   text-align: left;
+   padding: 30px;
+ }
+ .pMap .Map li{
+   line-height: 4;
+    margin-left: 30px;
+ }
+ .fFooter{
+   margin-top: 50px;
+   background-color: #403d38;
+ }
+ .fFooter .fcard{
+   width: 25%;
+   float: left;
+   padding: 25px;
+ }
+ .fFooter .fcard h3{
+  color: white;
+  font-size:20px;
+ }
+ .fFooter .fcard p{
+   color: white;
+   line-height: 45px;
+   font-size:16px;
+ }
+ .sFooter{
+   background-color: #353330;
+ }
+ .sFooter .fimg{
+   width: 100%;
+   text-align: center;
+ }
+ .sFooter .fimg img{
+   width: 20%;
+   text-align: center;
+ }
+ .sFooter .fimg p{
+   color: white;
+   font-size:14px;
+ }
